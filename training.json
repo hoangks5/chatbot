@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "Google",
+      "patterns": [
+        "Google",
+        "T\u00ecm ki\u1ebfm Google",
+        "M\u1edf Google"
+      ],
+      "responses": [
+        "Google"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Ytb",
+      "patterns": [
+        "youtube",
+        "t\u00ecm ki\u1ebfm youtube",
+        "m\u1edf youtube",
+        "xem video",
+        "t\u00f4i mu\u1ed1n xem video"
+      ],
+      "responses": [
+        "Youtube"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fb",
+      "patterns": [
+        "facebook",
+        "fb",
+        "m\u1edf facebook",
+        "m\u1edf fb"
+      ],
+      "responses": [
+        "Facebook"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "\u1ea2nh",
+      "patterns": [
+        "\u1ea3nh",
+        "th\u01b0 m\u1ee5c \u1ea3nh",
+        "M\u1edf th\u01b0 m\u1ee5c \u1ea3nh"
+      ],
+      "responses": [
+        "\u1ea2nh"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "L\u1eddi ch\u00e0o",
+      "patterns": [
+        "Xin ch\u00e0o",
+        "Hi",
+        "Hello",
+        "Whats up"
+      ],
+      "responses": [
+        "Ch\u00e0o anh \u0111\u1eb9p trai",
+        "Ch\u00e0o",
+        "Nh\u00ed h\u1ea3o"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "T\u1ea1m bi\u1ec7t",
+      "patterns": [
+        "Bye",
+        "T\u1ea1m bi\u1ec7t",
+        "\u0110i \u0111\u00e2y",
+        "H\u1eb9n g\u1eb7p l\u1ea1i"
+      ],
+      "responses": [
+        "Bi\u1ebfn",
+        "C\u00fat",
+        "\u0110i \u0111i",
+        "L\u01b0\u1ee3n \u0111i cho n\u01b0\u1edbc n\u00f3 trong"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "S\u1ee9c kh\u1ecfe",
+      "patterns": [
+        "Kh\u1ecfe kh\u00f4ng",
+        "kh\u1ecfe k",
+        "\u1ed5n ch\u1ee9",
+        "S\u1ee9c kh\u1ecfe d\u1ea1o n\u00e0y th\u1ebf n\u00e0o"
+      ],
+      "responses": [
+        "B\u00ecnh th\u01b0\u1eddng nh\u01b0 c\u00e2n \u0111\u01b0\u1eddng h\u1ed9p s\u1eefa",
+        "T\u00f4i \u1ed5n , c\u00f2n b\u1ea1n ?",
+        "T\u00f4i v\u1eabn kh\u1ecfe"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "t\u00ean g\u00ec",
+      "patterns": [
+        "B\u1ea1n t\u00ean g\u00ec",
+        "T\u00ean m\u00e0y l\u00e0 g\u00ec",
+        "What your name",
+        "T\u00ean l\u00e0 g\u00ec th\u1ebf"
+      ],
+      "responses": [
+        "Bot \u0111\u1eb9p trai",
+        "\u0110\u1ec7 c\u1ee7a anh Ho\u00e0ng \u0111z"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ng\u00e0y th\u00e0ng",
+      "patterns": [
+        "H\u00f4m nay ng\u00e0y bao nhi\u00eau",
+        "b\u00e2y gi\u1edd l\u00e0 m\u1ea5y gi\u1edd",
+        "M\u1ea5y gi\u1edd r\u1ed3i"
+      ],
+      "responses": [
+        "Ng\u00e0y n\u00e0o kh\u00f4ng bi\u1ebft",
+        "T\u00f4i c\u0169ng kh\u00f4ng bi\u1ebft",
+        "Ai m\u00e0 bi\u1ebft"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "tu\u1ed5i",
+      "patterns": [
+        "M\u00e0y bao nhi\u00eau tu\u1ed5i",
+        "B\u1ea1n m\u1ea5y tu\u1ed5i r\u1ed3i",
+        "C\u1eadu bao nhi\u00eau tu\u1ed5i"
+      ],
+      "responses": [
+        "18 xu\u00e2n xanh",
+        "18 n\u1ed3i b\u00e1nh ch\u01b0ng r\u1ed3i",
+        "Xu\u1ea5t x\u1ee9 2002"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "21-06-12 16:34:47",
+      "patterns": [
+        "ute"
+      ],
+      "responses": [
+        "s\u01b0 ph\u1ea1m k\u1ef9 thu\u1eadt"
+      ],
+      "context_set": ""
+    }
+  ]
+}
