@@ -86,7 +86,18 @@ def beam_search(words1, k=3):
       all_sequences = sorted(all_sequences,key=lambda x: x[1], reverse=True)
       sequences = all_sequences[:k]
   return sequences
-
+# Cập nhật thêm câu hỏi và trả lời vào tệp để training
+def update_json(filepath, var1, var2):
+    now = datetime.datetime.now() # Gọi timenow đặt tên cho tag
+    t = now.strftime("%y-%m-%d %H:%M:%S")
+    with open(filepath,'r', encoding='utf-8') as fp:
+        information = json.load(fp)
+    information["intents"].append({
+        "tag": t,
+        "patterns": [var1],
+        "responses": [var2],
+        "context_set": ""
+    })
 # Xóa bỏ ký tự thừa , ký tự đặc biệt
 def xoa_ky_tu_dac_biet(sentence):
   sentence = sentence.lower()
