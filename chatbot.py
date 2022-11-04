@@ -20,18 +20,7 @@ import datetime
 import webbrowser as wb
 
 
-# Cập nhật thêm câu hỏi và trả lời vào tệp để training
-def update_json(filepath, var1, var2):
-    now = datetime.datetime.now() # Gọi timenow đặt tên cho tag
-    t = now.strftime("%y-%m-%d %H:%M:%S")
-    with open(filepath,'r', encoding='utf-8') as fp:
-        information = json.load(fp)
-    information["intents"].append({
-        "tag": t,
-        "patterns": [var1],
-        "responses": [var2],
-        "context_set": ""
-    })
+
 
     with open(filepath,'w',encoding='utf-8') as fp: # Thêm dữ liệu vào tệp JSON
         json.dump(information, fp, indent=2,)
